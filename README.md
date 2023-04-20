@@ -11,6 +11,12 @@
 - Audio Visualizer
 - Particle System
 
+## Reasons
+
+Why separate repository?
+
+I want to use separate repository because I want to set up some tooling like linting, formatting, valgrid (memory leak detector), etc... However I should stay away from a feature creep and keep scope minimal.
+
 ## Trade offs
 
 I was thinking whether I should use OpenGL wrapper library but one Reddit comment from a guy who claims he has been working with GL for 20 years says that GL is global state machine and it doesn't play well with object oriented programming. That made sense since I've read that OpenGL is a state machine.
